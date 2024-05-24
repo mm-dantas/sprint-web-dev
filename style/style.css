@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    height: 16vh;
+}
+
+nav{
+    background-color: #FFFFFF;
+    height: 110%;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.623);
+    box-shadow: 0 3px rgba(0, 0, 0, 0.5);
+    z-index: 1;
+}
+
+.titulo{
+    width: 29vw;
+    height: 20vh;
+    background: linear-gradient(90deg, #E31837 0%, #DF1836 28.43%, #C61530 41.46%, rgba(173, 18, 42, 0.90) 59.51%, rgba(146, 16, 35, 0.80) 78.97%);
+    box-shadow: 0px 7px 4px rgba(0, 0, 0, 1);
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 2;
+    clip-path: polygon(0% 0%, 100% 0%, 80% 100%, 0% 100%);
+}
+
+.home{
+    height: 110vh;
+    background-image: url(../img/imagemFundo.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: relative;
+    z-index: -1;
+}
