@@ -11,7 +11,7 @@ header{
 
 .titulo{
     width: 32vw;
-    height: 20vh;
+    height: 19.5vh;
     background: linear-gradient(90deg, #E31837 0%, #DF1836 28.43%, #C61530 41.46%, rgba(173, 18, 42, 0.90) 59.51%, rgba(146, 16, 35, 0.80) 78.97%);
     box-shadow: 0px 7px 4px rgba(0, 0, 0, 1);
     position: absolute;
@@ -23,7 +23,7 @@ header{
 
 nav{
     background-color: #FFFFFF;
-    height: 110%;
+    height: 107%;
     border-bottom: 1px solid #000;
     box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.35);
     z-index: 1;
@@ -108,4 +108,18 @@ nav{
     background-position: center;
     position: relative;
     z-index: -1;
+}
+
+.segunda-section{
+    height: 140vh;
+    display: flex;
+    align-items: center;
+}
+
+.assuntos{
+    height: 774px;
+    width: 100%;
+    background: linear-gradient(90deg, #E31837 0%, #DF1836 31.93%, #C61530 46.56%, rgba(173, 18, 42, 0.90) 66.83%, rgba(146, 16, 35, 0.80) 88.69%);
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    border-radius: 20px;
 }

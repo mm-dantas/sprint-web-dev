@@ -6,4 +6,3 @@ boxBarraPesquisa.addEventListener('click', focusInput);
 function focusInput() {
     document.querySelector(".barra-pesquisa").focus();
 }
-
