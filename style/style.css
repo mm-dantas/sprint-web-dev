@@ -116,7 +116,7 @@ nav{
     align-items: center;
 }
 
-.assuntos{
+.box-assuntos{
     height: 774px;
     width: 100%;
     background: linear-gradient(90deg, #E31837 0%, #DF1836 31.93%, #C61530 46.56%, rgba(173, 18, 42, 0.90) 66.83%, rgba(146, 16, 35, 0.80) 88.69%);
@@ -126,7 +126,6 @@ nav{
 
 .box-circulos{
     height: 70%;
-    border: 1px solid black;
     display: flex;
     justify-content:space-around;
     align-items: center;
@@ -159,4 +158,27 @@ nav{
     display: flex;
     justify-content:space-around;
 
+}
+
+.box-button-saiba-mais{
+    height: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.button-saiba-mais{
+    border: none;
+    padding: 3vh 4.5vw;
+    border-radius: 90px;
+    background: #F4D7D7;
+    cursor: pointer;
+}
+
+.text-saiba-mais{
+    color: #A50B1C;
+    font-family: Quantico;
+    font-size: 4.3rem;
+    font-style: normal;
+    font-weight: 700;
 }
