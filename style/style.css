@@ -166,15 +166,26 @@ nav{
     flex-direction: column;
     justify-content: space-evenly;
     background-color: #FFFAFA;
-    width: 8vw;
-    height: 80vh;
+    width: 15vw;
+    padding: 0 2vw;
+    height: 85vh;
+    border-radius: 20px;
     max-height: 0;
     overflow: hidden;
-    transition: max-height 1s ease-out;
+    transition: max-height 0.7s ease-out;
 }
 
 .coluna-info.show{
     max-height: 500px;
+}
+
+.coluna-info__texto{
+    color: #E31837;
+    text-align: center;
+    font-family: Quantico;
+    font-size: 20px;
+    font-style: italic;
+    font-weight: 700;
 }
 
 .box-button-saiba-mais{
