@@ -111,13 +111,12 @@ nav{
 }
 
 .segunda-section{
-    height: 140vh;
-    display: flex;
-    align-items: center;
+    height: auto;
 }
 
 .box-assuntos{
-    height: 774px;
+    margin-top: 15vh;
+    height: auto;
     width: 100%;
     background: linear-gradient(90deg, #E31837 0%, #DF1836 31.93%, #C61530 46.56%, rgba(173, 18, 42, 0.90) 66.83%, rgba(146, 16, 35, 0.80) 88.69%);
     filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
@@ -125,7 +124,7 @@ nav{
 }
 
 .box-circulos{
-    height: 70%;
+    padding: 90px 0 45px 0;
     display: flex;
     justify-content:space-around;
     align-items: center;
@@ -143,6 +142,9 @@ nav{
     height: 296px;
     border-radius: 200px;
     background-color: #FFFFFF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .nomes-circulos{
@@ -157,10 +159,26 @@ nav{
 .box-nomes-circulos{
     display: flex;
     justify-content:space-around;
+}
 
+.coluna-info{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    background-color: #FFFAFA;
+    width: 8vw;
+    height: 80vh;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 1s ease-out;
+}
+
+.coluna-info.show{
+    max-height: 500px;
 }
 
 .box-button-saiba-mais{
+    padding: 45px 0 90px 0;
     height: 30%;
     display: flex;
     justify-content: center;
@@ -169,7 +187,7 @@ nav{
 
 .button-saiba-mais{
     border: none;
-    padding: 3vh 4.5vw;
+    padding: 2.5vh 4vw;
     border-radius: 90px;
     background: #F4D7D7;
     cursor: pointer;
@@ -178,7 +196,8 @@ nav{
 .text-saiba-mais{
     color: #A50B1C;
     font-family: Quantico;
-    font-size: 4.3rem;
+    font-size: 4rem;
     font-style: normal;
     font-weight: 700;
 }
+
