@@ -7,6 +7,8 @@
 
 header{
     height: 16vh;
+    position: relative;
+    z-index: 999;
 }
 
 .titulo{
@@ -19,6 +21,14 @@ header{
     left: 0;
     z-index: 2;
     clip-path: polygon(0% 0%, 100% 0%, 80% 100%, 0% 100%);
+    display: flex;
+    align-items: center;
+}
+
+.titulo img {
+    margin-left: 20px;
+    max-width: 83%;
+    max-height: 83%;
 }
 
 nav{
