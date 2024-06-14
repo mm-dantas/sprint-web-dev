@@ -41,7 +41,7 @@ document.addEventListener("DOMContentLoaded", function() {
                     }
                 });
                 
-                // Alterna o texto do botão baseado na classe do primeiro elemento
+                
                 if (extraContents[0].classList.contains("show")) {
                     this.innerHTML = '<h2 class="text-saiba-mais">Mostrar Menos</h2>';
                 } else {
