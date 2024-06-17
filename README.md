@@ -10,14 +10,18 @@
 - Camila Takara – RM: 555418
 - Rodrigo Leme – RM: 550266
 
-## Manipulação dos Elementos e Eventos da Página (script.js):
-#### - document.addEventListener("DOMContentLoaded", function() {}):
-   Foi adicionado para acionar quando todo o HTML for completamente carregado e analisado;
+## Manipulação de Elementos e Eventos em JavaScript (index.html):
 
-### - const boxBarraPesquisa = document.querySelector('.box-barra-pesquisa');
-### - const barraPesquisa = document.querySelector(".barra-pesquisa");
-### - const showMoreBtn = document.getElementById("showMoreBtn");
-### - const extraContents = document.querySelectorAll(".coluna-info");
+Este projeto utiliza JavaScript para criar interatividade na página web. Aqui estão algumas das principais funcionalidades implementadas:
+
+- **Barra de Pesquisa**: Ao clicar na área específica, o campo de pesquisa é automaticamente focado, facilitando a entrada de texto.
+  
+- **Slideshow Automático**: Uma galeria de imagens que avança automaticamente a cada 5 segundos, proporcionando uma experiência dinâmica para os usuários.
+  
+- **Exibição de Conteúdo Adicional**: Um botão "Saiba Mais" que expande ou retrai informações adicionais ao ser clicado, melhorando a navegabilidade e a acessibilidade das informações.
+
+
+
 
 
 
