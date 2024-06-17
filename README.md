@@ -11,7 +11,7 @@
 - Rodrigo Leme – RM: 550266
 
 ## Manipulação dos Elementos e Eventos da Página (script.js):
-# - document.addEventListener("DOMContentLoaded", function() {}):
+#### - document.addEventListener("DOMContentLoaded", function() {}):
     Foi adicionado para acionar quando todo o HTML for completamente carregado e analisado;
 
 # - const boxBarraPesquisa = document.querySelector('.box-barra-pesquisa');
