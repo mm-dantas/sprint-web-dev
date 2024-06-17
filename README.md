@@ -49,4 +49,4 @@ Esse código demonstra como realizar uma verificação simples de login e redire
 - img/: Diretório para armazenar imagens utilizadas no projeto.
 
 ## Instruções de Uso
-- Entre no link do nosso projeto e aproveite: 
+- Entre no link do nosso projeto e aproveite: https://mm-dantas.github.io/sprint-web-dev/
