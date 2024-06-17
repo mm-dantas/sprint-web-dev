@@ -12,12 +12,12 @@
 
 ## Manipulação dos Elementos e Eventos da Página (script.js):
 #### - document.addEventListener("DOMContentLoaded", function() {}):
-    Foi adicionado para acionar quando todo o HTML for completamente carregado e analisado;
+   Foi adicionado para acionar quando todo o HTML for completamente carregado e analisado;
 
-# - const boxBarraPesquisa = document.querySelector('.box-barra-pesquisa');
-# - const barraPesquisa = document.querySelector(".barra-pesquisa");
-# - const showMoreBtn = document.getElementById("showMoreBtn");
-# - const extraContents = document.querySelectorAll(".coluna-info");
+### - const boxBarraPesquisa = document.querySelector('.box-barra-pesquisa');
+### - const barraPesquisa = document.querySelector(".barra-pesquisa");
+### - const showMoreBtn = document.getElementById("showMoreBtn");
+### - const extraContents = document.querySelectorAll(".coluna-info");
 
 
 
