@@ -21,6 +21,16 @@ Este projeto utiliza JavaScript para criar interatividade na página web. Aqui e
 - **Exibição de Conteúdo Adicional**: Um botão "Saiba Mais" que expande ou retrai informações adicionais ao ser clicado, melhorando a navegabilidade e a acessibilidade das informações.
 
 
+## Manipulação de Elementos e Eventos em JavaScript (login.html):
+
+Este projeto utiliza JavaScript para criar um sistema básico de login. Aqui estão os principais pontos de implementação:
+
+- **Verificação de Credenciais**: Ao clicar no botão de login, o sistema verifica se o email é "cristiano@gmail.com" e a senha é "ronaldo123".
+  
+- **Redirecionamento**: Se as credenciais estiverem corretas, o usuário é redirecionado para a página inicial (`index.html`).
+
+Esse código demonstra como realizar uma verificação simples de login e redirecionamento usando JavaScript em uma aplicação web.
+
 
 
 
